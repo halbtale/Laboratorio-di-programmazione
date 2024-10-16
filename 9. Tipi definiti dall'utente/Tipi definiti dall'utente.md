@@ -57,14 +57,7 @@
 		- lettura/scrittura solo tramite interfaccia
 	- permette controllo dello stato e incapsulamento
 ![[Pasted image 20241016110349.png|700]]
-#### progettazione di una classe
-- Si possono utilizzare questi strumenti:
-	- funzioni membro
-	- costruttori
-	- protezione dati
-	- overloading operatori
-	- gestione copia dati
-	- helper function
+
 ### struct
 - Varianti delle classi
 - Unica differenza tecnica: i membri di default sono privati
