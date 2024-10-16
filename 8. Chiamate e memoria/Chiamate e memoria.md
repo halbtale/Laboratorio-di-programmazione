@@ -12,21 +12,22 @@
 ![[Pasted image 20241010132547.png|500]]
 ### layout di memoria
 ![[Pasted image 20241010133105.png|700]]
+<div style="page-break-after: always;"></div>
+
 - ==Text segment==
-	- contiene istruzioni in binario del programma
+	- contiene **istruzioni** in **binario** del programma
 	- copiato in memoria dal file oggetto
-	- contiene le istruzioni eseguibili
 	- spesso read-only
 	- spesso condiviso
 - ==Initialized data segment==
-	- contiene variabili locali e statiche
+	- contiene **variabili locali** e **statiche**
 	- read/write
 - ==Uninitialized data segment==
 	- **BSS**
-	- contiene variabili globali/statiche non inizializzate esplicitamente
+	- contiene **variabili** globali/statiche **non inizializzate** esplicitamente
 - ==Stack==
 	- contiene **RA** delle funzioni
-		- variabili locali e parametri
+		- **variabili** **locali** e **parametri**
 - ==Heap==
 	- ha dimensione standard
 	- può essere modificato con comandi speciali
