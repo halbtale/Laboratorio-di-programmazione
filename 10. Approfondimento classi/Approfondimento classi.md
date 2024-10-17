@@ -10,6 +10,7 @@
 - Approccio scrittura classe:
 	- **prima**: si scrive interfaccia
 	- **dopo**: si scrive implementazione
+	- processo iterativo e di testing
 ### helper function
 - **Funzioni esterne** alla classe che operano sulla classe
 - Di solito utilizzano la classe come **reference** e ritornano **void**
@@ -20,13 +21,14 @@
 ### costruttore
 - Funzione membro con **stesso nome della classe**
 	- usato per inizializzare gli oggetti della classe
-- Se esiste un costruttore con argomenti, è **errore** di compilazione non chiamarlo
+- Se esiste un costruttore con argomenti, è **errore** di **compilazione** non chiamarlo
 - Sintassi ```{}```preferibile per inizializzazione
 #### esempi
 ![[Pasted image 20241016113603.png|600]]
 ### controllo di accesso
 - Funzioni membro garantiscono che **dati membro siano sempre coerenti**
 - Mantiene oggetto in uno **stato valido**
+- Impostare dati membro come **private**
 ### invarianti
 - **Regole** per definire **valori validi** dello stato
 ### classe definita in più file
@@ -51,11 +53,11 @@
 	- eccezione
 #### gestione eccezioni (excursus)
 - Meccanismo che **separa** rilevamento errore dalla sua gestione
-	- **rilevamento**:
-		- dalla funzione chiamata (inside)
+	- ==rilevamento==:
+		- dalla funzione chiamata (**inside**)
 		- si lancia con ```throw```
-	- **gestione**:
-		- nella funzione chiamante (outside)
+	- ==gestione==:
+		- nella funzione chiamante (**outside**)
 		- se la gestione non viene gestita, il programma termina
 		- si gestisce con ```try/catch```
 ![[Pasted image 20241016115852.png|700]]
