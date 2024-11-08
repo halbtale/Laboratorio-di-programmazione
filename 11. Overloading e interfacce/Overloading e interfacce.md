@@ -2,13 +2,14 @@
 ### overloading degli operatori
 - È possibile implementarlo per quasi tutti gli operatori 
 	- **solo** di operatori esistenti
+	- per **operandi** di tipi **UDT**
 - Può essere effettuato usando una funzione standard o attraverso funzioni di membro
 #### sintassi
 - Bisogna creare una funzione con un nome specifico:
 ```cpp
 operator+, operator++, operator*, operator[], ...
 ```
-- Può essere una funzione esterna o funzione membro:
+- Riconosce entrambi i pattern:
 ![[Pasted image 20241023110113.png|300]]
 #### requisiti
 - Deve essere presente almeno **un argomento UDT**
