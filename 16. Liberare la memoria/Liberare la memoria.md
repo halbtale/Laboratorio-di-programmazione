@@ -41,6 +41,8 @@
 	- **NON** dealloca la memoria
 	- chiama distruttori di eventuali oggetti membro
 
+<div style="page-break-after: always;"></div>
+
 ### esempio: implementazione std::vector
 ![[Pasted image 20241106114352.png|400]]
 ### pattern acquisizione risorse
@@ -58,6 +60,4 @@
 - Gestione memoria tramite **puntatori**
 - Maggiore **carico computazionale**:
 	- allocazione/deallocazione avviene tramite chiamate al **sistema operativo**
-#### quando utilizzarla
-- **NON** utilizzarla a sproposito
 - Utilizzarla solo se strettamente **necessario allocare dinamicamente memoria**

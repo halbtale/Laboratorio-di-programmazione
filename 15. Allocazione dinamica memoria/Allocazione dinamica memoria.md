@@ -57,6 +57,8 @@ double* p = new double[n]
 
 ### spostamento di un puntatore
 ![[Pasted image 20241106111254.png|600]]
+<div style="page-break-after: always;"></div>
+
 ### garbage
 - Si definisce ==garbage== un'area di **memoria** di cui si **perdono** i **riferimenti**
 - ==Memory leak==
