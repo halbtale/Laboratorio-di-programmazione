@@ -5,11 +5,21 @@
 - **Classi derivate** (più specifiche)
 	- **ereditano** caratteristiche comuni classe base e le estendono
 ![[Pasted image 20241204113510.png|300]]
+### meccanismi gerarchie di classi
+- ==Ereditarietà/derivazione==
+	- classe derivata **eredita** funzioni e dati da classe base
+- ==Funzioni virtuali==
+	- possibilità di definire la stessa **funzione** nella classe base e in quella derivata
+- ==Incapsulamento==
+	- membri **private** e **protected** nascondono dettagli implementativi
 ### classe astratta
 - Classe base che **NON** può essere istanziata direttamente
 1. Definizione attraverso **costruttori** ==protected==
 	- la classe non può essere istanziata dall'esterno
-2. Definzione attraverso ==funzioni virtuali==
+2. Definzione attraverso ==funzioni virtuali pure==
+
+<div style="page-break-after: always;"></div>
+
 ### classe derivata
 - Per definire una classe che eredita da un'altra classe, si usa la sintassi:
 ```cpp
@@ -21,9 +31,9 @@ class Circle : public Shape {
 >[!info] Osservazione
 >Si possono definire anche ereditarietà di tipo ```private```
 
-### relazione tra classe astratta e classe derivata
+### relazione tra classe base e classe derivata
 #### is a
-- Un oggetto di una classe **derivata** ==è un== oggetto di una classe **astratta**
+- Un oggetto di una classe **derivata** ==è un== oggetto di una classe **base**
 - Relazione **NON** biunivoca
 #### has a
 - Definisce **composizione** tra le classi

@@ -11,10 +11,5 @@ add_executable(Script3 script3.cpp
 add_executable(Script4 script4.cpp
         Vector.cpp
         Vector.h)
-add_executable(Script8 script8.cpp
-        Point.cpp
-        Point.h
-        Shape.cpp
-        Shape.h
-        Circle.cpp
-        Circle.h)
+add_executable(Script8 script8.cpp)
+add_executable(Script9 script9.cpp)
